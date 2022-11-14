@@ -1,0 +1,50 @@
+* {
+    z-index: 1;
+    margin: 0;
+    padding: 0 20;
+}
+#navigation {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: goldenrod;
+    height: 5%;
+}
+i {
+    font-size: 10px;
+ }
+ h1 i {
+    font-size: 40px;
+ }
+ #image {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+ }
+
+#about {
+    font-size: 20px;
+    height: 100vh;
+    display: flex;
+}
+#start {
+    position: relative;
+    height: 95%;
+    background-image: url(download.jpg);
+    background-size: cover;
+    border: 5px solid black;
+}
+#title {
+   z-index: 1;
+   text-align: center;
+   font-size: 60px;
+   margin: 200px;
+}
+#subtitle {
+    margin: auto;
+    text-align: center;
+}
+#main {
+    height: 100vh;
+}
