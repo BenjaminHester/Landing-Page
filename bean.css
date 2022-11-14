@@ -27,10 +27,19 @@ i {
     font-size: 20px;
     height: 100vh;
     display: flex;
+    columns: 1;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+}
+section h3 {
+    margin: 20px;
 }
 #start {
     position: relative;
-    height: 95%;
+    height: 93.5%;
     background-image: url(download.jpg);
     background-size: cover;
     border: 5px solid black;
